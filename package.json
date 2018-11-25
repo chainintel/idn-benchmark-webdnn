@@ -39,8 +39,9 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "@idn/backend-webdnn": "^1.0.3",
-    "@idn/loader": "^1.0.0",
+    "@idn/backend-webdnn": "^1.0.16",
+    "@idn/loader": "^1.0.6",
+    "@idn/util-promisify": "^1.0.3",
     "async": "^2.6.1"
   }
 }

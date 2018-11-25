@@ -1,12 +1,12 @@
 // webpack.node.config.js
 
-var webpack = require('webpack');
-var path = require('path');
-var libraryName = 'BenchmarkWebDNN';
-var nodeExternals = require('webpack-node-externals');
+var webpack = require('webpack')
+var path = require('path')
+var libraryName = 'BenchmarkWebDNN'
+var nodeExternals = require('webpack-node-externals')
 
-var plugins = [];
-var outputFile = 'index.js';
+var plugins = []
+var outputFile = 'index.js'
 
 module.exports = {
   externals: [nodeExternals()],
@@ -65,4 +65,4 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js', '.json']
   }
-};
+}
